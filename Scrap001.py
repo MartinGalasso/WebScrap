@@ -1,5 +1,3 @@
-#Practica leer archivos .csv o .txt o .json.
-
 from bs4 import BeautifulSoup
 import requests
 
@@ -33,9 +31,9 @@ while i<=2:
 '''
 El codigo por el momento lo que hace es.
 1)Busca del html div inside.
-2)Hace un recuento for de todos los productos y trae el nombre y el precio.
+2)Hace un bucle for para obtener todos los nombres y precios.
 3)Hice un bucle while para que vaya aumentando de pagina y traiga todos los precios y nombres de las paginas a las que le indico.
-4)Ahora voy a tratar de modularizar todo para que se pueda conseguir cada cosa por separado.
+4)Se podria seguir modularizando para obtener diferentes formas u objetos.
 '''
 
 
